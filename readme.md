@@ -1,4 +1,4 @@
-# GoLang vs Python for pie estimation using Basel
+# GoLang vs Python for pie estimation
 
 Probability that two random numbers are coprime is (6/π^2). One can estimate the value of Pi by using random integers.
 
