@@ -23,7 +23,7 @@ $ time python pi.py
 python pi.py  82.47s user 0.46s system 98% cpu 1:24.04 total
 ```
 
-Once I did that I was curious to check the same thing using GoLang
+Once I did that, I was curious to check the same thing using GoLang
 
 ```
 $ time go run pi.go
