@@ -69,7 +69,7 @@ func calculate() float64{
 
 func main() {
     i := 0
-	for i < 10 {
+    for i < 10 {
         i = i + 1
         fmt.Println(calculate())
     }
