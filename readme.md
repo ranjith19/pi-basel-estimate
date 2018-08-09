@@ -2,6 +2,10 @@
 
 Probability that two random numbers are coprime is (6/π^2). One can estimate the value of Pi by using random integers.
 
+YouTube video if you're interested: 
+https://youtu.be/RZBhSi_PwHU
+
+
 I wrote a program in python to estimate the value of Pie using this method, mostly for fun. This is not the easiest nor the best way to estimate π but is just an interesting way to do so.
 
 ```
@@ -19,7 +23,7 @@ $ time python pi.py
 python pi.py  82.47s user 0.46s system 98% cpu 1:24.04 total
 ```
 
-Once I did that I was curious to check the same thing using GoLang
+Once I did that, I was curious to check the same thing using GoLang
 
 ```
 $ time go run pi.go
