@@ -39,3 +39,22 @@ go run pi.go  0.51s user 0.17s system 85% cpu 0.784 total
 Turns out GoLang is insanely faster compared to Python as far as this problem is concerned. Almost 100 times faster!
 
 In this repository, you will find both the programs.
+
+## *UPDATE*
+
+I tried a cython implementation. It seems like it is faster by at least 15 times.
+
+```
+$ time python pi.py
+0 3.13565921783
+1 3.13594174385
+2 3.14153337479
+3 3.13771653175
+4 3.14629840851
+5 3.14518284798
+6 3.13836026192
+7 3.14305901527
+8 3.14171433449
+9 3.1363530159
+python pi.py  4.77s user 0.07s system 97% cpu 4.958 total
+```
